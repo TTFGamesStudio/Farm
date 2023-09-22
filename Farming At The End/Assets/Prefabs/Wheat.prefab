@@ -1,0 +1,516 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1807330946029658428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8762009524075845726, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2444694876325107996}
+  - component: {fileID: 3014743993769063287}
+  - component: {fileID: 5626794530578663607}
+  m_Layer: 0
+  m_Name: WheatStage1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2444694876325107996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7910896193063925758, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807330946029658428}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01872909, y: 0.01872909, z: 0.01872909}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4679694996078094885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3014743993769063287
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1955575692279451995, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807330946029658428}
+  m_Mesh: {fileID: -4720992625204851571, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+--- !u!23 &5626794530578663607
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2781670503477849876, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807330946029658428}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6482968931723483531, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3820786585616351576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7668282528791651545}
+  m_Layer: 0
+  m_Name: Wheat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7668282528791651545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3820786585616351576}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 4679694996078094885}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6820277679903210882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1037868629033165937, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7048719686960168072}
+  - component: {fileID: 5451698741142645764}
+  - component: {fileID: 1822470779977706585}
+  m_Layer: 0
+  m_Name: WheatStage2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7048719686960168072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3410108380038233414, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6820277679903210882}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01872909, y: 0.01872909, z: 0.01872909}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4679694996078094885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5451698741142645764
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5007778237507631530, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6820277679903210882}
+  m_Mesh: {fileID: -2320796269969889015, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+--- !u!23 &1822470779977706585
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7221461821480167491, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6820277679903210882}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6482968931723483531, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7007220938988837999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8667759775519670346, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4679694996078094885}
+  - component: {fileID: 2229362179547923970}
+  m_Layer: 0
+  m_Name: WheatPlant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4679694996078094885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007220938988837999}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3072239974371581882}
+  - {fileID: 6457345679088835304}
+  - {fileID: 2444694876325107996}
+  - {fileID: 7048719686960168072}
+  m_Father: {fileID: 7668282528791651545}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2229362179547923970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2583587498310623567, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7007220938988837999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e8b44c0e09dfe4eb11fbbd3950c56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plot: {fileID: 0}
+  unwateredDays: 0
+  readyToHarvest: 0
+  growth: 0
+  maxGrowth: 5
+  stages:
+  - {fileID: 5180218875633046358}
+  - {fileID: 5626794530578663607}
+  - {fileID: 1822470779977706585}
+  - {fileID: 6850380136358561888}
+--- !u!1 &7648196479014370077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6581460997092523608, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6457345679088835304}
+  - component: {fileID: 3888860788348175481}
+  - component: {fileID: 6850380136358561888}
+  - component: {fileID: 154001647143452424}
+  m_Layer: 6
+  m_Name: WheatMature
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6457345679088835304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6203940489939670783, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648196479014370077}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01872909, y: 0.01872909, z: 0.01872909}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4679694996078094885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3888860788348175481
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3623395864509935371, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648196479014370077}
+  m_Mesh: {fileID: 7670337631723264016, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+--- !u!23 &6850380136358561888
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 5215546509851631421, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648196479014370077}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -4824322180010683563, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+  - {fileID: -8440142095773649271, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &9184794940008732380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1020090646273503118, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3072239974371581882}
+  - component: {fileID: 8755269875530870282}
+  - component: {fileID: 5180218875633046358}
+  m_Layer: 0
+  m_Name: WheatChild
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3072239974371581882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 2656773617263976146, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9184794940008732380}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01872909, y: 0.01872909, z: 0.01872909}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4679694996078094885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8755269875530870282
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4734700498481341440, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9184794940008732380}
+  m_Mesh: {fileID: -7977752004137409125, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+--- !u!23 &5180218875633046358
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8008108279159633271, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+  m_PrefabInstance: {fileID: 4008247820026593947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9184794940008732380}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 6821406545810281803, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &4008247820026593947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7668282528791651545}
+    m_Modifications:
+    - target: {fileID: 2583587498310623567, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: maxGrowth
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581460997092523608, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8287117248635951856, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667759775519670346, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      propertyPath: m_Name
+      value: WheatPlant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6581460997092523608, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 154001647143452424}
+  m_SourcePrefab: {fileID: 100100000, guid: 0f37f0a2f9b60ca4290a4e72f9c86bab, type: 3}
+--- !u!64 &154001647143452424
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7648196479014370077}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7670337631723264016, guid: 11f515aaac86a8d43b7179b9dedc6130, type: 3}

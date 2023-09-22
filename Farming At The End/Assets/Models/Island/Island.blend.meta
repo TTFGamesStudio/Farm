@@ -7,6 +7,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Dirt
+    second: {fileID: 2100000, guid: e5f939df80c15504e873ad5fc7231716, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: d872730d2f63e244db7f1c4f2d8a51ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Water
     second: {fileID: 2100000, guid: 8bdf09b5ac8d0554e9c5842645be29da, type: 2}
   materials:
